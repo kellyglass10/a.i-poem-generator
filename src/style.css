@@ -1,1 +1,20 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/121/original/kier-in-sight-archives-4o71vkGV9J0-unsplash.jpg?1705607701);
+  background-size: cover;
+  font-family: "Quicksand", sans-serif;
+}
 
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: hsla(0, 80%, 100%, 0.7);
+  border-radius: 6px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+  color: #50427f;
+}
