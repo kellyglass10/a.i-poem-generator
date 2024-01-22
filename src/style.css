@@ -24,10 +24,20 @@ h1 {
   color: #50427f;
 }
 
-form {
-  padding: 20px;
-  display: flex;
+.form-container {
   margin-bottom: 20px;
+  padding: 15px 20px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .instructions {
@@ -68,4 +78,18 @@ footer {
 
 .link {
   color: #50427f;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
 }
