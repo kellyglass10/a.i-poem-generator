@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>KG Poem Generator 🤖</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -19,7 +21,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of your poem"
@@ -30,11 +32,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Poem to go here
-          <br />
-          and here
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
