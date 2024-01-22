@@ -50,6 +50,10 @@ form {
   font-size: 14px;
 }
 
+.submit-button:hover {
+  cursor: pointer;
+}
+
 .poem {
   font-size: 16px;
   padding: 10px;
