@@ -91,5 +91,5 @@ footer {
   }
 }
 .generating {
-  animation: blink-animation 1s steps(5, start) infinite;
+  animation: blink 1s step-start 0s infinite;
 }
